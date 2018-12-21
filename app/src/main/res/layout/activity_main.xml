@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<FrameLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main_frame_layout"
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
-
-    <Button
-            android:id="@+id/buttonGoTo1Fragment"
-            android:layout_width="wrap_content"
-            android:text="Go To 1 Fragment"
-            android:layout_height="wrap_content"/>
-
-    <Button
-            android:id="@+id/buttonGoTo2Fragment"
-            android:layout_width="wrap_content"
-            android:text="Go To 2 Fragment"
-            android:layout_height="wrap_content"/>
-
-    <FrameLayout
-            android:id="@+id/main_frame_layout"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
-
-</LinearLayout>
+        tools:context=".MainActivity"/>
