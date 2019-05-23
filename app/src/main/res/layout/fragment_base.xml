@@ -30,4 +30,10 @@
             android:text="Go To WebSite"
             android:layout_height="wrap_content"/>
 
+    <Button
+            android:id="@+id/btn_go_my"
+            android:text="Go to My Fragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
 </LinearLayout>

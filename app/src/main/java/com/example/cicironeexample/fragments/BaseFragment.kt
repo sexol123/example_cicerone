@@ -25,5 +25,6 @@ class BaseFragment : Fragment() {
         buttonGoTo2Fragment.setOnClickListener { router.navigateTo(SecondScreen) }
         buttonGoToParamFragment.setOnClickListener { router.navigateTo(ParamScreen("передаваемый параметр")) }
         buttonGoToWebSite.setOnClickListener { router.navigateTo(ExampleIntent) }
+        btn_go_my.setOnClickListener { router.navigateTo(MyScreen) }
     }
 }
